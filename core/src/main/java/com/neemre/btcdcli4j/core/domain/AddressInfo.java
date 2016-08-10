@@ -42,4 +42,8 @@ public class AddressInfo extends Entity {
 	@JsonProperty("iscompressed")
 	private Boolean isCompressed;
 	private String account;
+        @JsonProperty("confidential_key")
+        private String confidentialKey;
+        private String unconfidential;
+        private String confidential;
 }
